@@ -13,7 +13,7 @@ dependencies {
 
 cargo {
    deployable {
-           file = file('/var/lib/jenkins/workspace/basic-web/basic-web.war')
-           context = 'basic-web'
+           file = file('/basic-web.war')
+           context = '/var/lib/jenkins/workspace/basic-web'
    }
 }
