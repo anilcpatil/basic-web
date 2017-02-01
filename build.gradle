@@ -3,6 +3,7 @@ apply plugin: 'jetty'
 apply plugin: 'eclipse-wtp'
 
 repositories {
+   flatDir { dirs "lib" }
    mavenCentral()
 }
 
