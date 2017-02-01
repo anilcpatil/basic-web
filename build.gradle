@@ -12,6 +12,6 @@ dependencies {
 }
 
 deployable {
-        file = file('/var/lib/jenkins/workspace/basic-web/basic-web.war')
+        file = file('/basic-web/basic-web.war')
         context = 'basic-web'
-    }
+}
